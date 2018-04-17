@@ -5,3 +5,11 @@
     margin-right: auto;
     margin-left: auto;
 } */
+
+
+.nav-item > a {
+    color: whitesmoke;
+}
+.portraitImage {
+    margin-bottom: 20px;
+}
