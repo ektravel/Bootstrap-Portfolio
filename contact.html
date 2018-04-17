@@ -5,40 +5,66 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">
-        <title>EM About</title>            
+        <title>EM About</title>  
     </head>
     <body>
-        <!-- Header starts -->
-        <header>
-            <div id="innerParentHeader">
-                <div><h1>Ekaterina Macedo</h1></div>
-                <div id="navigation">
-                    <ul>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="portfolio.html">Portfolio</a> </li>
-                        <li><a href="index.html">About</a></li>
-                    </ul>
+    <!--This is the beginning of Navigation-->
+        <nav class="navbar navbar-dark" style ="background-color: #4aaaa5; margin-bottom: 30px">
+            <div class="container-fluid">
+                <div class = "navbar-header">
+                    <a class = "navbar-brand" href = "index.html"><h2>Ekaterina Macedo</h2></a>
+                </div>
+                <div class="nav">
+                    <li class="nav-item">
+                        <a class="nav-item nav-link active" href="index.html" >About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="portfolio.html" >Portfolio</a>    
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    </li>
                 </div>
             </div>
-        </header>
-        <!-- Header ends -->
-            <div id="container">    
-                <div id="innerSection">
-                    <h2 id="aboutMeTitle">Contact</h2>
-                    <form class="formContact">
+        </nav>
+    <!--This is the end of Navigation-->
+    <!--This is the beginning of the Main container-->
+    <div class="container border">
+            <!--This is the beginning of About Me row-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header" style="color: #4aaaa5">
+                        <h2>Contact</h2>
+                    </div>    
+                </div>    
+            </div>
+            <!--This is the end of About Me row-->  
+            <div class="row">
+                <div class="col-md-12">
+                <form>
+                    <div class="form-group">
                         <label for="nameInput">Name</label>
-                        <br>
-                        <input type="text" name="name" id="nameInput">
-                        <br><br>
+                        <input class="form-control" type="text" name="name" id="nameInput">
+                    </div>
+                    <div class="form-group">
                         <label for="emailInput">Email</label><br>
-                        <input type="text" name="email" id="emailInput">
-                        <br><br>
-                        <label for="messageInput2">Message</label><br>
-                        <textarea name="message" id="messageInput2" cols="30" rows="10"></textarea>
-                        <button type="submit" value="Submit">Submit </button>
-                    </form>
+                        <input class="form-control" type="text" name="email" id="emailInput">
+                    </div>
+                    <div class="form-group">                        
+                        <label for="messageInput2">Message</label>
+                        <textarea class="form-control" name="message" id="messageInput2" cols="30" rows="10"></textarea>
+                    </div>       
+                        <button type="submit" class="btn btn-primary">Submit </button>
+                </form> 
                 </div>
             </div>
-        <footer>Copyright &#169;</footer>
+        </div>
+        <!-- Start of the footer -->
+        <footer class="footer">
+        <div class="footer footer-border-top" style=" height:7%; background-color: #666666; text-align: center; color: white; border-top: 5px solid #4aaaa5">Copyright &#169;  
+        </div>
+        </footer>    
+        <!--End of the footer--> 
+        <!--This is the end of the Main container-->
     </body>
 </html>
