@@ -3,4 +3,10 @@
 }
 .portraitImage {
     margin-bottom: 20px;
+
+}
+
+.img-fluid{
+    width: 354px;
+    height: 230px;
 }
